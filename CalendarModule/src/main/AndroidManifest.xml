@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.unice.polytech.mycalendarapp.calendarmodule">
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+
+    </application>
+
+    <uses-sdk android:minSdkVersion="14" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+
+</manifest>
