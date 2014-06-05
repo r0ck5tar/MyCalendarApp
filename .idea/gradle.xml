@@ -7,10 +7,9 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\Users\user\Documents\GitHub\MyCalendarApp" />
-            <option value="C:\Users\user\Documents\GitHub\MyCalendarApp\CalendarModule" />
-            <option value="C:\Users\user\Documents\GitHub\MyCalendarApp\app" />
-            <option value="C:\Users\user\Documents\GitHub\MyCalendarApp\calendarReader" />
+            <option value="C:\Users\Hakim\Documents\GitHub\MyCalendarApp" />
+            <option value="C:\Users\Hakim\Documents\GitHub\MyCalendarApp\CalendarModule" />
+            <option value="C:\Users\Hakim\Documents\GitHub\MyCalendarApp\app" />
           </set>
         </option>
       </GradleProjectSettings>

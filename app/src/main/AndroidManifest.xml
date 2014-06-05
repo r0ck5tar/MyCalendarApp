@@ -17,11 +17,6 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name="fr.unice.polytech.mycalendarapp.app.CalendarReaderService"
-            android:enabled="true"
-            android:exported="false" >
-        </service>
     </application>
 
     <uses-sdk android:minSdkVersion="14" />
