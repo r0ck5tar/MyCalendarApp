@@ -5,5 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="read_calendar_button">Read Calendar</string>
+    <string name="service_connected">FreeTimeCalendarService connected</string>
+    <string name="service_disconnected">FreeTimeCalendarService disconnected</string>
 
 </resources>

@@ -8,7 +8,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="fr.unice.polytech.mycalendarapp.app.MainActivity">
 
-    <TextView
+    TextView
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,8 +19,79 @@
         android:layout_height="wrap_content"
         android:text="@string/read_calendar_button"
         android:id="@+id/read_calendar_button"
-        android:layout_below="@+id/textView"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventTitle"
+        android:text="Event title"
+        android:layout_below="@+id/read_calendar_button"
+        android:layout_toRightOf="@+id/createEventButton" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startdatePicker"
+        android:spinnersShown="true"
+        android:calendarViewShown="false"
+        android:layout_below="@+id/eventTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Start"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="48dp"
+        android:layout_alignBottom="@+id/startdatePicker"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="End"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/endDatePicker"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endDatePicker"
+        android:calendarViewShown="false"
+        android:focusable="false"
+        android:spinnersShown="true"
+        android:layout_below="@+id/startdatePicker"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Create Event"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/startdatePicker"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Event"
+        android:id="@+id/createEventButton"
+        android:layout_below="@+id/endDatePicker"
+        android:layout_alignLeft="@+id/endDatePicker"
+        android:layout_alignStart="@+id/endDatePicker" />
 
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FreeTimeCalendarModule</string>
+    <string name="freetime_calendar_name">freetime</string>
+    <string name="calendar_created">Created FreeTime Calendar</string>
 </resources>
